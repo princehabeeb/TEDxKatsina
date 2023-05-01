@@ -22,3 +22,33 @@ body{
     width: 100%;
     height: 100vh;
 }
+
+nav{
+    z-index: 999 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+nav ul{
+    z-index: 999 !important;
+}
+
+
+@media screen and (max-width:800px){
+    nav{
+        background-color: #1f1d1d;
+        opacity: 60%;
+    }
+
+    nav ul{
+        background-color: #1f1d1d;
+    }
+}
+
+.home-text{
+    /* border: 2px solid red; */
+    padding-top: 220px;
+}
