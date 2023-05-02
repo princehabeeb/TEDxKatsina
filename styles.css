@@ -40,7 +40,7 @@ nav ul{
 @media screen and (max-width:800px){
     nav{
         background-color: #1f1d1d;
-        opacity: 60%;
+        opacity: 95%;
     }
 
     nav ul{
@@ -48,7 +48,33 @@ nav ul{
     }
 }
 
+
+
 .home-text{
     /* border: 2px solid red; */
     padding-top: 220px;
+}
+
+
+.info{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.top-info{
+    background: black;
+    opacity: 95%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+}
+
+.bottom-info{
+    opacity: 95%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
 }
