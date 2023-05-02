@@ -62,6 +62,8 @@ nav ul{
 }
 
 
+
+
 @media screen and (max-width:800px){
     nav{
         background-color: #1f1d1d;
@@ -102,4 +104,14 @@ nav ul{
     justify-content: start;
     align-items: center;
     padding: 5px;
+}
+
+.about-container{
+    height: 60vh;
+}
+
+.about-container img{
+    height: 500px;
+    width: 100%;
+    max-width: 100%;
 }
