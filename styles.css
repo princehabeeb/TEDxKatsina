@@ -15,7 +15,7 @@ body{
 }
 
 .home{
-    background: url(images/bg1.jpg);
+    background: url(images/bg-7.png);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,17 +32,21 @@ body{
     animation-timing-function:ease-in-out ;
 }
 
-@keyframes animate{
-    0%{
-       background-image: url(images/bg1.jpg);
+@media screen and (max-width:800px){
+    @keyframes animate{
+        0%{
+           background-image: url(images/bg1.jpg);
+        }
+        50%{
+           background-image: url(images/bg6.jpeg);
+        }
+        100%{
+           background-image: url(images/bg4.jpg);
+        }
     }
-    50%{
-       background-image: url(images/bg6.jpeg);
-    }
-    100%{
-       background-image: url(images/bg4.jpg);
-    }
+        
 }
+
 
 
 nav{
